@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>I'm Truly Sorry</title>
+
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Inter:wght@300;400&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="min-h-screen px-4 relative overflow-x-hidden">
+
+    <!-- Floating Hearts Container -->
+    <div id="hearts-container"></div>
+
+    <!-- Card -->
+    <div class="card relative z-10 max-w-md w-full bg-white rounded-3xl shadow-xl p-8 text-center mx-auto my-12">
+
+        <!-- Header -->
+        <h1 class="text-3xl mb-6 text-gray-800">I’m Truly Sorry</h1>
+
+        <!-- Image Space -->
+        <div class="image-box mb-6 flex items-center justify-center">
+            <img src="us.png" class="w-full h-full object-cover" /> 
+        </div>
+
+        <!-- Message -->
+        <p class="text-gray-700 text-lg leading-relaxed mb-6">
+            I don’t have any excuses.
+            I just want to say that I’m really sorry for hurting you.
+            I know I made a mistake, and I will make it right.
+            Please forgive me and give me another chance to prove my love to you.
+        </p>
+
+        <!-- Poem Space -->
+        <div class="poem-box mb-8 italic text-gray-600">
+            Maafi mangta hoon agar mera dil thoda bhatak gaya tha,
+            Par aapke bina mera har ek pal kahin atak gaya tha.
+
+            Ab chodo bhi ye naraazgi, phir se muskura do,
+            Mere is khali jahan ko apne prem se saja do.
+
+            Hamara ye saath wahi pavitra silsila hai,
+            Jaise Radha-Krishna ko unka adhura ishq mila hai.
+        </div>
+
+        <!-- Button -->
+        <button id="forgiveBtn" class="forgive-btn">
+            Forgive Me
+        </button>
+
+        <!-- Sound -->
+        <audio id="forgiveSound" src="cartoon-yay-140921.mp3" preload="auto"></audio>
+
+    </div>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
